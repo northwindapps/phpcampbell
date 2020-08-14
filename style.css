@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: rgb(248, 249, 250) ;
+}
+
+.Width_40vw {
+    width: 40vw;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.Hero_Back_Img{
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://m.media-amazon.com/images/S/aplus-media/mg/bc8988ce-46dc-4633-b099-a9ab6122f603._SR970,300_.jpg');
+    background-size: cover;
+    display: grid;
+}
+
+.Inline_Center{
+    margin: auto;
+    width: 100%;
+    grid-area: 1 / 1;
+    text-align: center;
+}
+
+.Flex_Horizon{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    list-style: none;
+    color: white;
+}
+
+div.Bg_Gray{
+    background-color: gray;
+}
+
+.Margin_Top{
+    margin-top: 30px;
+    
+    
+}
+
+.Bg{
+    background-color: rgb(248, 249, 250);
+}
+
+.Textalign_Center{
+    text-align: center;
+}
+
+img{
+    object-fit: cover;
+}
+
+
+
