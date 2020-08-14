@@ -28,7 +28,7 @@ if (filter_has_var(INPUT_POST, 'submit')) {
 			$msgClass = 'alert-danger';
 		} else {
 			// Passed
-			$toEmail = 'yumiya27@hotmail.co.jp';
+			$toEmail = '';
 			$subject = 'Contact Request From ' . $name;
 			$body = '<h2>Contact Request</h2>
 					<h4>Name</h4><p>' . $name . '</p>
@@ -115,7 +115,7 @@ if (filter_has_var(INPUT_POST, 'submit')) {
 			<button type="submit" name="submit" class="btn btn-primary btn-sm btn-block">送信</button>
 		</form>
 	</div>
-	
+
 	<div class="container Margin_Top">
 		<footer class="pt-4 my-md-5 pt-md-5 border-top">
 			<div class="row">
